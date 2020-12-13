@@ -1,4 +1,26 @@
-# Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/main/
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Misc
+test*
+test/
